@@ -29,7 +29,7 @@ const AddCardorList = ({ type, listId }) => {
 
 const useStyle = makeStyles(theme => ({
     root: {
-        width: "500px",
+        width: "600px",
         marginTop: theme.spacing(1)
     },
     addCardorListText: {
