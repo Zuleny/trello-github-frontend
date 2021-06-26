@@ -6,7 +6,7 @@ const mockData = {
             cards: [
                 {
                     id: "01card",
-                    title: "Presiona Refresh ara actualizar los avances"
+                    title: "Presiona Refresh ara actualizar los avances de tu repositorio Git"
                 }
             ]
         }
