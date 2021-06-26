@@ -50,7 +50,7 @@ const AddCardorListText = ({ type, setOpen, listId }) => {
 
 const useStyle = makeStyles(theme => ({
     card: {
-        width: "280px",
+        width: "400px",
         margin: theme.spacing(0, 1, 1, 1),
         paddingBottom: theme.spacing(4)
     },
