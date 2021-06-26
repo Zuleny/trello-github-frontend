@@ -44,11 +44,11 @@ const useStyle = makeStyles(theme => ({
     },
     titleText: {
         flexGrow: 1,
-        fontSize: "1.2rem",
+        fontSize: "1.5rem",
         fontWeight: "bold",
     },
     input: {
-        fontSize: "1.2rem",
+        fontSize: "1.6rem",
         fontWeight: "bold",
         margin: theme.spacing(1),
         "&:focus": {
