@@ -46,7 +46,7 @@ const TrelloList = ({ list, index }) => {
 
 const useStyle = makeStyles(theme => ({
     root: {
-        width: "300px",
+        width: "500px",
         background: "#ebecf0",
         margin: theme.spacing(1)
     }
