@@ -50,10 +50,7 @@ const useStyle = makeStyles(theme => ({
     input: {
         fontSize: "1.6rem",
         fontWeight: "bold",
-        margin: theme.spacing(1),
-        "&:focus": {
-            background: "#ddd"
-        }
+        margin: theme.spacing(1)
     }
 }));
 
