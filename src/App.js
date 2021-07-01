@@ -77,6 +77,7 @@ function App() {
       title,
       cards: []
     });
+	// show reponse
     alert(result.data.status);
   };
 
