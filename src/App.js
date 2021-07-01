@@ -87,6 +87,7 @@ function App() {
     if (!destination) {
       return;
     }
+	// verificar lista
     if (type === "list") {
       let newListIds = data.listIds;
       newListIds.splice(sourceIndex, 1);
