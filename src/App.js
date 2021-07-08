@@ -43,6 +43,7 @@ function App() {
       id: newCardID,
       title
     });
+	console.log(result.status);
     if (result.status === 200) {
       alert("success");
     } else {
