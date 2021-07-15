@@ -127,15 +127,20 @@ function App() {
   };
 
   const initializeTrello = async () => {
-    if (ownerRepository !== "" || nameRepository !== "") {
-      let response = await axios.post(`${hostServer}/api/card/rearrange`, {
-        user: ownerRepository,
-        repository: nameRepository
-      });
-      setData(response.data);
-    } else {
-      alert("input owner repository and name repository");
-    }
+    try {
+		// comentario
+		if (ownerRepository !== "" || nameRepository !== "") {
+		  let response = await axios.post(`${hostServer}/api/card/rearrange`, {
+			user: ownerRepository,
+			repository: nameRepository
+		  });
+		  setData(response.data);
+		} else {
+		  alert("input owner repository and name repository");
+		}
+	}catch (e){
+		console.log("Error in initializeTrello method");
+	}
   };
 
   // modal
